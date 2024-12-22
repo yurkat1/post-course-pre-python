@@ -1,0 +1,18 @@
+Index: main.py
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.BaseRevisionTextPatchEP
+<+># print(\"Hello world\")\n#\n# print(\"Hi, my name is Kate\")\n# print()\n# print(\"What is your name?\")\n# print()\n#\n# # escape последовательности\n# print(\"Hello\\nworld\")\n# print(\"apple\\t\\tjuice\")\n# print(\"strawbary jam \\\"Rose\\\"\")\n#\n# print(\"\\n\")\n# # sep  end\n# print(\"Hi\", \"Hello\", \"Guten Tag\")\n# print(\"Hi\", \"Hello\", \"Guten Tag\", sep=\",\", end=\"- \")\n# print(\"Bonjur\")\n#\n# apple_pay = \"iphone\"\n# print(apple_pay)\n#\n# al_b = 1\n# print(al_b)\n#\n# # input\n# print(\"\\n\" *2)\n#\n#\n# name = input(\"Enter your name: \")\n# # age = input(\"Enter your age:\")\n# age = int(input(\"Enter your age: \"))\n#\n# # print(\"Name: \" + name , \"Age: \" + age)\n# print(f\"Name : {name} Age: {age}\")\n#\n# print()\n#\n# number = int(input(\"Enter 3-digit number: \"))\n# n1 = number // 100\n# n2 = number // 10 % 10\n# n3 = number % 10\n#\n# result = n1 + n2 + n3\n# print(f\"n1: {n1} \\nn2: {n2} \\nn3: {n3}\")\n# print(f\"Result: {result}\")\n\n\n\n# HOMEWORK!!!\n# 1 Користувач вводить три цифри з клавіатури. Необхідно знайти суму чисел, добуток чисел.\n# number = int(input(\"Print 3 digits:\"))\n# n1 = number // 100\n# n2 = number // 10 % 10\n# n3 = number % 10\n# result = n1 + n2 + n3\n# print(f\"n1= {n1} \\nn2= {n2} \\nn3= {n3}\")\n# print(f\"Result: {result}\")\n\n# 2. Напишіть програму, яка обчислює площу ромба. Користувач із клавіатури вводить довжину двох його діагоналей.\n# Площа ромба дорівнює половині добутку його діагоналей: S = (AC · BD)/2.\n\n# diagonal1= int(input(\"Enter diagonal1:\"))\n# diagonal2= int(input(\"Enter diagonal2:\"))\n# s_rhombus = (diagonal1) * (diagonal2) / 2\n# print(f\"Area of rhombus= {s_rhombus}\")\n\n# 3. Користувач вводить з клавіатури число, що складається із чотирьох цифр. Потрібно знайти добуток цифр.\n# Наприклад, якщо з клавіатури введено 1324 тоді результат буде - 1*3*2*4 = 24.\n\n# number = int(input(\"Enter 4-digit number: \"))\n# n1 = number // 1000\n# n2 = number // 100 % 10\n# n3 = number // 10 % 10\n# n4 = number % 10\n# print(f\"n1= {n1}, n2= {n2}, n3= {n3}, n4= {n4}\")\n# result= n1 * n2 * n3 * n4\n# print(f\"Result: {result}\")\n# ,,,\nmm\n\n\n\n\n\n\n
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/main.py b/main.py
+--- a/main.py	(revision 06fa41207977f8909c22291d9210399a86335a37)
++++ b/main.py	(date 1734711404194)
+@@ -79,6 +79,7 @@
+ mm
+ 
+ 
++mnl
+ 
+ 
+ 
